@@ -21,7 +21,7 @@ const AuthProvider = ({ children }) => {
 
   const handleLogin = useCallback(
     async ({ username, password }: LoginProps) => {
-      await api.get('/api/pessoa', {
+      await api.get('/pessoa', {
         auth: {
           username,
           password,
@@ -31,7 +31,7 @@ const AuthProvider = ({ children }) => {
       Cookies.set('username', username);
       Cookies.set('password', password);
 
-      push('/pessoas');
+      push('/');
     },
     [push],
   );
