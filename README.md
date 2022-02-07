@@ -15,6 +15,10 @@ Tecnologia back-end: Java Spring Boot
 | localhost:3000/ | front-end |
 | localhost:8080/source | links dos repositórios |
 
+## Credenciais
+Login: admin  
+Senha: password
+
 ## Como rodar - Front e API juntos
 É preciso expor as portas da aplicação
 Front-end: porta 3000   
