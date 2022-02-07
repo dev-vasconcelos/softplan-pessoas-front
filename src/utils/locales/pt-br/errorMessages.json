@@ -1,0 +1,6 @@
+{
+  "requiredField": "Este campo é necessário",
+  "validField": "Este campo não é válido",
+  "validString": "Digite um texto válido",
+  "validNumber":"Digite um número válido"
+}
